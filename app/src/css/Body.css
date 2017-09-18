@@ -1,0 +1,18 @@
+.Body, .Canvas, .WebGl {
+  height: 80%;
+}
+.CanvasWrap {
+  width: 400px;
+  height: 600px;
+  vertical-align: middle;
+  display: inline-block;
+}
+.Canvas {
+  width: 400px;
+  height: 600px;
+}
+.WebGl {
+  width: 50%;
+  vertical-align: middle;
+  display: inline-block;
+}

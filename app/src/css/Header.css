@@ -1,0 +1,27 @@
+.Header {
+  width: 100%;
+}
+.Logo {
+  width: 10%;
+  vertical-align: middle;
+  display: inline-block;
+  animation: Nav-logo-spin infinite 20s linear;
+}
+.Nav {
+  width: 90%;
+  vertical-align: middle;
+  display: inline-block;
+}
+.NavList {
+  margin: 0;
+  clear: both;
+}
+.NavList li{
+  float: left;
+  list-style: none;
+  margin-left: 4%;
+}
+@keyframes Nav-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
